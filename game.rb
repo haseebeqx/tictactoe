@@ -24,7 +24,7 @@ class Game
         @board.draw_game_over(game_over_message)
         break if wait_for_exit
       else
-        @board.draw(@selected_row, @selected_col, current_player.symbol)
+        @board.draw(@selected_row, @selected_col, "Player: #{current_player.symbol}")
         process_input(Curses.getch)
       end
     end

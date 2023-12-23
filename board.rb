@@ -11,7 +11,7 @@ class Board
 
   def draw(selected_row, selected_col, player_text)
     Curses.clear
-    display_text_at(0, Curses.cols - player_text.length - 1, player_text)
+    display_text_at(0, 1, player_text)
     draw_grid(selected_row, selected_col)
     display_text_at(Curses.lines - 1, (Curses.cols - 40) / 2, "Press Q to exit, Use arrow keys to move, Press space to select")
     Curses.refresh
