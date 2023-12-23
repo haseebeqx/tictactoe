@@ -10,3 +10,8 @@ Run the game using
 
 Use arrow keys to move. Press Space to select and press `q` to exit
 
+
+### Screenshot
+
+![screenshot](./tiktoktoe.png)
+
