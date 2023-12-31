@@ -1,4 +1,4 @@
-## Tic Toc Toe
+## Tic Tac Toe
 A Tic Tac Toe game written in ruby.
 
 ### How to play
