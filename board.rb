@@ -27,7 +27,7 @@ class Board
 
   def draw_game_over(message)
     Curses.clear
-    draw_grid(0, 0)
+    draw_grid(-1, -1)
     display_text_at(Curses.lines - 4, (Curses.cols - message.length) / 2, message, true)
     display_text_at(Curses.lines - 3, (Curses.cols - 15) / 2, "Press Q to exit")
     Curses.refresh
