@@ -13,5 +13,5 @@ Use arrow keys to move. Press Space to select and press `q` to exit
 
 ### Screenshot
 
-![screenshot](./tiktoktoe.png)
+![screenshot](./tictactoe.png)
 
