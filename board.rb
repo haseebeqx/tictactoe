@@ -13,7 +13,7 @@ class Board
     Curses.clear
     display_text_at(0, 1, player_text)
     draw_grid(selected_row, selected_col)
-    display_text_at(Curses.lines - 1, (Curses.cols - 40) / 2, "Press Q to exit, Use arrow keys to move, Press space to select")
+    display_text_at(Curses.lines - 1, (Curses.cols - 62) / 2, "Press Q to exit, Use arrow keys to move, Press space to select")
     Curses.refresh
   end
 
